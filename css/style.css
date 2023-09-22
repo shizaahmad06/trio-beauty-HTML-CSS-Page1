@@ -1,0 +1,381 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+@font-face{
+  font-family: canela;
+  src: url(/Canela-Family/CanelaText-Thin-Trial.otf);
+}
+@font-face{
+  font-family: Avenir;
+  src: url(/avenir_ff/AvenirLTStd-Roman.otf);
+}
+.container{
+  max-width: 1440px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.topOneLine{
+  background: #E7E3EB;
+  text-align: center;
+  padding: 10px;
+}
+.banner img{
+  display: block;
+  width: 100%;
+}
+.banner-section h1{
+  font-size: 20px;
+  padding: 10px;
+  text-align: center;
+  font-weight: lighter;
+  font-family: Avenir;
+  font-weight: 400;
+}
+.paragrph-banner{
+  font-size: 35px;
+}
+.banner-section p{
+  text-align: center;
+  font-family:canela;
+  font-weight: 100;
+}
+.paragraphBanner-sec{
+  padding: 10px;
+  font-size: 23px;
+  color: black;
+  font-family: Avenir;
+  font-weight: 500;
+}
+.paragraphBanner-sec a{
+  color: black;
+}
+.background-banner{
+  background:  #E7E3EB;
+}
+/* Twosides*/
+.twoSides{
+  display: flex; 
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+}
+.col1{
+  max-width: 50%;
+  margin-left: 40px;
+}
+.col1 h1{
+  font-family: canela;
+  font-weight: 100;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.col1 p{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+.col1 a{
+  color: black;
+}
+.col2{
+  max-width: 50%;
+}
+.col2 img{
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+/* OneLine-sec1*/
+.oneLineSection2{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+}
+.oneLineSection2 p{
+  text-align: center;
+}
+/* TwoSides-Section2*/
+.twoSides-sec2{
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+}
+.col1-sec2{
+  max-width: 50%;
+  margin-left: 40px;
+}
+.col1-sec2 h1{
+  font-family: canela;
+  font-weight: 100;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+.col1-sec2 p{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  margin-bottom: 30px;
+}
+.col1-sec2 a{
+  color: black;
+}
+.col2-sec2{
+  max-width: 50%;
+}
+.col2-sec2 img{
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+/*OneLine-section1*/
+.oneLineSection2{
+  font-family: Avenir;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 10px;
+}
+.oneLineSection2 p{
+  text-align: center;
+}
+/* TwoSidesimg*/
+
+.twoSidesImg ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionOneImg{
+ width: 50%;
+ padding: 10px;
+}
+.sectionOneImg img{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.sectionTwoImg{
+ width: 50%;
+ padding: 10px;
+}
+.sectionTwoImg img{
+  display: block;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.twoSidesImg ul{
+  list-style: none;
+}
+.twoSidesImg ul a{
+  text-decoration: none;
+}
+.sectionOneImg{
+  width: 50%;
+}
+.sectionTwoImg{
+  width: 50%;
+}
+/* Background*/
+.background{
+  background: rgba(0, 0, 0, 0.7) url(../images/Rectangle\ 4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: lighten;
+}
+.box-main{
+  color: #fff;
+  padding: 65px;
+}
+
+.firstB{
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  font-size: 70px;
+  margin-top: 160px;
+  font-family: myFontTwo;
+}
+.btn{
+  font-size: 20px;
+  padding: 10px;
+  width: 23%;
+  border: none;
+  background: #DEBCBD;
+  color: white;
+}
+/*Imagelist*/
+.imgList{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 60px
+}
+.imgList img{
+  display: block;
+  max-width: 100%;
+}
+.imgList li{
+  padding: 5px;
+}
+/*footer*/   
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background:#513454;
+  padding: 70px 0;
+}
+.footer-col{
+  width: 25%;
+  padding: 0 15px;
+ 
+}
+.footer-col ul li{
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffff;
+  text-decoration: none;
+  font-weight: 300;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: plum;
+  padding-left: 8px; 
+}
+.para1{
+  font-size: 30px;
+  color: white;
+  font-family: canela;
+}
+.para2{
+  font-size: 9px;
+  color: white;
+  font-family: Avenir;
+}
+.button2{
+  width: 100%;
+  padding: 10px;
+  background: #E7E3EB;
+  border: none;
+  font-family: Avenir;
+}
+input{
+  width: 100%;
+  padding: 10px;
+}
+.lastLine p{
+  font-size: 15px;
+  padding: 25px;
+  text-align: center;
+  color: white;
+  font-family: Avenir;
+}
+@media only screen and (max-width : 947px){
+  .footer-col{
+    width: 50%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width : 600px){
+  .footer-col{
+    width: 75%;
+  }
+    .para2 {
+     font-size: 12px;
+}
+} 
+@media only screen and (max-width : 799px){
+  .paragrph-banner {
+    font-size: 20px;
+  }
+  .banner-section h1 {
+    font-size: 12px;
+  }
+  .paragraphBanner-sec{
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width : 627px){
+  .firstB {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+  }
+  .btn{
+    font-size: 9px;
+    margin: 10px;
+    font-weight: 300;
+  }
+}
+@media only screen and (max-width : 1081px){
+  .twoSides{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .col1{
+    max-width: 100%;
+    margin: 0;
+  }
+  .col1 h1{
+    font-size: 30px;
+  }
+  .col1 p{
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+  .col2{
+    max-width: 100%;
+  }
+  .col2 img{
+    max-width: 100%;
+  }
+  .oneLineSection2{
+    font-size: 18px;
+  }
+  /**/
+  .twoSides-sec2{
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .col1-sec2{
+    max-width: 100%;
+    margin: 0;
+  }
+  .col1-sec2 h1{
+    font-size: 30px;
+  }
+  .col1-sec2 p{
+    font-size: 18px;
+    margin-bottom: 7px;
+  }
+  .col2-sec2{
+    max-width: 100%;
+  }
+  .col2-sec2 img{
+    max-width: 100%;
+  }
+  .imgList{
+    padding: 0;
+  }
+}
+
